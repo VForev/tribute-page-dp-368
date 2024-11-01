@@ -6,6 +6,12 @@
     
  }
 
+ body {
+  background-image: url("/img/back.jpg");
+  object-fit: cover;
+  margin: auto;
+}
+
  .titleE {
   font-size: 35px;
   margin: 0;  
@@ -15,11 +21,11 @@
  .main {
     text-align: center;
     background-color: #B4B4AC;
-    height: 1145;
-    width: 600;
+    max-height: 1145px;
+    max-width: 600px;
     border-radius: 30px;
-    align-items: center;
-
+    margin: auto;
+    opacity: 95%;
 
  }
 
@@ -32,6 +38,7 @@
 
  * {
   font-family: Advent Pro;
+  filter: drop-shadow(0 0 4px black);
  }
 
  .image {
@@ -63,4 +70,43 @@
   display: flex;
   justify-content: center;
   width: 100px;
+ }
+
+ .dates {
+  padding: 9px 100px 0 100px;
+  margin: 0;
+  font-size: 20px;
+  text-align: left;
+
+ }
+
+ .dateC {
+  color: #AA8538;
+  font-family: Advent Pro;
+  font-weight: bold;
+
+
+ }
+
+ .qu {
+  font-size: 20px;
+  padding: 47px 142px 0 142px;
+  margin: 0;
+  color: #3E4F64;
+ }
+
+ .quE {
+  font-size: 15px;
+ }
+
+ .linkto {
+  font-size: 20px;
+  padding: 22px 0 31px 0;
+  margin: 0;
+  color: balck;
+ }
+
+ a {
+  color: #3E4F64;
+  text-decoration: none;
  }
