@@ -38,7 +38,7 @@
 
  * {
   font-family: Advent Pro;
-  filter: drop-shadow(0 0 4px black);
+  /* filter: drop-shadow(0 0 0 black); */
  }
 
  .image {
