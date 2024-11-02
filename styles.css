@@ -12,13 +12,13 @@
   margin: auto;
 }
 
- .titleE {
+ #titleE {
   font-size: 35px;
   margin: 0;  
   color: #3E4F64;
 }
 
- .main {
+ #main {
     text-align: center;
     background-color: #B4B4AC;
     max-height: 1145px;
@@ -29,7 +29,7 @@
 
  }
 
- .line {
+#line {
   width: 401px;
   height: 4px;
   align-items: center;
@@ -41,7 +41,7 @@
   /* filter: drop-shadow(0 0 0 black); */
  }
 
- .image {
+#image {
   width: 316px;
   height: 300px;
   border-radius: 30px;
@@ -50,7 +50,7 @@
 
  }
 
- .img-caption {
+#img-caption {
   font-size: 14px;
   padding: 0;
   margin: 0;
@@ -58,7 +58,7 @@
 
  }
 
- .timeline {
+#timeline {
   font-size: 30px;
   padding: 24px 0 0 0;
   margin: 0;
@@ -66,13 +66,13 @@
   text-decoration: underline;
  }
 
- .times {
+#times {
   display: flex;
   justify-content: center;
   width: 100px;
  }
 
- .dates {
+#dates {
   padding: 9px 100px 0 100px;
   margin: 0;
   font-size: 20px;
@@ -80,7 +80,7 @@
 
  }
 
- .dateC {
+#dateC {
   color: #AA8538;
   font-family: Advent Pro;
   font-weight: bold;
@@ -88,18 +88,18 @@
 
  }
 
- .qu {
+#qu {
   font-size: 20px;
   padding: 47px 142px 0 142px;
   margin: 0;
   color: #3E4F64;
  }
 
- .quE {
+#quE {
   font-size: 15px;
  }
 
- .linkto {
+#linkto {
   font-size: 20px;
   padding: 22px 0 31px 0;
   margin: 0;
